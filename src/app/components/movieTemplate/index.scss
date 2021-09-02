@@ -1,0 +1,37 @@
+table, table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.ml-10 {
+    margin-left: 10px
+}
+
+.App-table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    margin-top: 10px;
+  
+    &--container {
+      width: 80%;
+      padding: 0 15px;
+      margin: 0 auto 80px 60px;
+    }
+  
+    &--film_list {
+      cursor: pointer;
+    }
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .App-table--container {
+      margin: 0 auto;
+    }
+  }

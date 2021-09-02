@@ -1,0 +1,40 @@
+.App-about {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0 30px 80px 80px;
+  font-size: 12px;
+
+  &--title {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .App-about {
+    max-width: 350px;
+    font-size: 16px;
+    padding: 0 50px 80px 80px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .App-about {
+    max-width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .App-about {
+    max-width: 1200px;
+    font-size: 18px;
+
+    &--title {
+      text-align: center;
+      font-size: 25px;
+      padding-left: 10px;
+    }
+  }
+}
