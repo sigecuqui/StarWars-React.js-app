@@ -1,5 +1,7 @@
 DEMO VERSION: https://starwars-app-swapi.netlify.app/
 
+MAIN task: fetch data from api; use routing.
+
 App created with React.js. Fetch from https://swapi.dev/api/
 
 
